@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Bank of India</title>
+    <!-- Awensome Font CDN Link -->
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylesheets Link -->
+    <link rel="stylesheet" href="SBI.css">
+    <link rel="icon" href="image/SBI-icon.png">
+    <link rel="stylesheet" href="slider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="social-media">
+        <a href="https://www.facebook.com/StateBankOfIndia/" target="_blank"><img src="image/facebook.png" alt=""
+                width="32px" height="32px">SBI Official<br>Facebook</a>
+        <a href=""><img src="image/twitter.png" alt="" width="32px" height="32px">SBI Official<br>Twitter</a>
+        <a href=""><img src="image/youtube.png" alt="" width="32px" height="32px">SBI Official<br>YouTube</a>
+        <a href=""><img src="image/linkedin.png" alt="" width="32px" height="32px">SBI Official<br>Linkedin</a>
+        <a href=""><img src="image/instagram.png" alt="" width="32px" height="32px">SBI Official<br>Instagram</a>
+        <a href=""><img src="image/pinterest.png" alt="" width="32px" height="32px">SBI Official<br>Pinterest</a>
+        <a href=""><img src="image/telephone.png" alt="" width="32px" height="32px">Contact Us</a>
+    </div>
+    <div class="Main_Page_Container">
+        <div class="header">
+            <div class="sbi-logo1">
+                <img src="image/sbi_logo.png" width="90px" height="32px">
+            </div>
+            <div class="sbi-logo2">
+                <img src="image/sbi_logo2.png" width="75px" height="45px">
+            </div>
+        </div>
+
+        <!--========================= Navigation Bar =========================-->
+        <!--=============================== More Links Jquery ===============================-->
+        <script>
+            $(document).ready(function () {
+                $("#bars-btn").click(function () {
+                    $("#show-links").slideToggle(300);
+                });
+            });
+        </script>
+        <div class="navbar-container">
+            <div class="bars">
+                <i class="fa-solid fa-bars" id="bars-btn"></i>
+            </div>
+            <div class="navbar-links" id="show-links">
+                <a href="">Services</a>
+                <a href="">FAQ</a>
+                <a href="">Corporate Website</a>
+                <a href="">SBIePay Lite <span>(SBMOPS)</span></a>
+                <a href="">Donations</a>
+                <a href="">SB Collect</a>
+                <a href="">Electoral Bond</a>
+                <a href="">Videos</a>
+                <a href="">mCash</a>
+                <a href="">Apply for SB/ Current Account</a>
+                <a href="">NPS</a>
+                <a href="">SBI Unipay</a>
+                <a href="">SBI Loans</a>
+            </div>
+            <div class="change-language">
+                <a href="">हिंदी</a>
+            </div>
+        </div>
+
+        <!--================= Banking and Pin Main Container =================-->
+        <div class="banking-pin-container">
+            <div class="pin-container">
+                <p class="animate">If slowness is observed during Login Page loding, please refresh the page for better
+                    experience.</p>
+                <p>SBI never asks for confidentail information such as PIN and OTP from customers. Any such call can be
+                    made only by a fraudster. Please do not shere personal info.</p>
+            </div>
+        </div>
+
+        <div class="banking-container">
+            <!--===================== Personal-Banking =====================-->
+            <div class="personal-banking">
+                <div class="icon">
+                    <img src="image/Sample_User_Icon.png" width="45px" height="45px" alt="">
+                </div>
+                <a href="">PERSONAL<span>BANKING</span></a>
+                <!-- Login-Box -->
+                <div class="login">
+                    <a href="">LOGIN<i class="fa-solid fa-angles-right"></i></a>
+                </div>
+                <!-- User-function -->
+                <div class="user-function">
+                    <!-- User -->
+                    <div class="function">
+                        <a href="">
+                            <img src="image/user.png" width="30px" height="30px" alt="">
+                            <p>New User Registration /</p>
+                        </a>
+                    </div>
+                    <!-- How-Do -->
+                    <div class="function" style="border-left: 1px solid #CCCCCC;">
+                        <a href="">
+                            <img src="image/how_do.png" width="30px" height="30px" alt="">
+                            <p>How Do |</p>
+                        </a>
+                    </div>
+                    <!-- Customer-Care -->
+                    <div class="function" style="border-left: 1px solid #CCCCCC;">
+                        <a href="">
+                            <img src="image/customer_care.png" width="30px" height="30px" alt="">
+                            <p>Customer Care</p>
+                        </a>
+                    </div>
+                    <!-- Lock & Unlock -->
+                    <div class="function" style="border-left: 1px solid #CCCCCC;">
+                        <a href="">
+                            <img src="image/lock.png" width="30px" height="30px" alt="">
+                            <p>Lock & <br>Unlock User</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- Text-Box -->
+                <div class="text">
+                    <p>SBI's internet banking portal provides personal banking services that gives you complete</p>
+                    <p>control over all your banking demands online.</p>
+                </div>
+            </div>
+
+            <!--========================== Corporate-Banking ==========================-->
+            <div class="corporate-banking">
+                <div class="icon">
+                    <img src="image/yono-sbi-business-icon.png" width="160px" height="45px" alt="">
+                </div>
+                <a href="">CORPORATE<span>BANKING</span></a>
+                <!-- Login-Box -->
+                <div class="login">
+                    <select>
+                        <option value="">yono BUSINESS</option>
+                        <option value="">Corporate</option>
+                        <option value="">Supply Chain Finance</option>
+                    </select>
+                    <a href="">LOGIN</a>
+                </div>
+                <!-- Tex-Box -->
+                <div class="text" style="font-style: italic;">
+                    <p>Have you tried our new simplified and intuitive business banking platform? Log in to
+                        yonobusiness.sbi to avail business banking services.</p>
+                </div>
+                <!-- User-function -->
+                <div class="user-function">
+                    <!-- User -->
+                    <div class="function">
+                        <a href="">
+                            <img src="image/user.png" width="30px" height="30px" alt="">
+                            <p>New User Registration /</p>
+                        </a>
+                    </div>
+                    <!-- How-Do -->
+                    <div class="function" style="border-left: 1px solid #CCCCCC;">
+                        <a href="">
+                            <img src="image/how_do.png" width="30px" height="30px" alt="">
+                            <p>How Do |</p>
+                        </a>
+                    </div>
+                    <!-- Customer-Care -->
+                    <div class="function" style="border-left: 1px solid #CCCCCC;">
+                        <a href="">
+                            <img src="image/customer_care.png" width="30px" height="30px" alt="">
+                            <p>Customer Care</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- Text-Box -->
+                <div class="text">
+                    <p>Corporate Banking application to administer and manage non personal accounts online.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--================ Maarquee Text Slider ================-->
+        <div class="text-slider">
+            <marquee direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+                Bill Payments Notification: New Registrations/Modifications are temporarily disabled on OnlineSBI/ YONO
+                Lite/YONO. Already scheduled bills will be processed as planned. New registrations /scheduling of bills
+                will be made available to you shortly with improved features. New bill payment can be done through the
+                option “Pay Bills with BBPS” | Mandatory Profile password change after 365 days introduced for added
+                security. | Call us toll free on 1800 1234 and 1800 2100 and get a wide range of services through SBI
+                Contact Centre | For added security, new functionality to maintain per day and per transaction limit for
+                general merchant payment transactions has been implemented. Please visit Define Limit under profile
+                section. | SBI never asks for your Card/PIN/OTP/CVV details on phone, message or email. Please do not
+                click on links received on your email or mobile asking your Bank/Card details.
+            </marquee>
+        </div>
+
+        <!--========================== Usefull-Links ==========================-->
+        <div class="useful-links">
+            <!-- Row-1 -->
+            <div class="links">
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">RBI Retail Direct Portal</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Block ATM Card</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Register Complaint of Unauthorized
+                            Transaction</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Banking Form</a></li>
+                </ul>
+            </div>
+            <!-- Row-2 -->
+            <div class="links">
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Doorstep Banking</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI General Insurance Document Download</a>
+                    </li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI FasTag</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Salary Account</a></li>
+                </ul>
+            </div>
+            <!-- Row-3 -->
+            <div class="links">
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">NRI Services</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Fair Lending Practice Code</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Securities</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Express Remit</a></li>
+                </ul>
+            </div>
+            <!-- Row-4 -->
+            <div class="links">
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Mutual Fund</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Life Insurance</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Card</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Online SBI Global</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--========== More Links Sections ==========-->
+        <div class="useful-links" id="more-links">
+            <div class="links">
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">RBI Retail Direct Portal</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Block ATM Card</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Register Complaint of Unauthorized
+                            Transaction</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Banking Form</a></li>
+                </ul>
+            </div>
+            <!-- Row-2 -->
+            <div class="links">
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Doorstep Banking</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI General Insurance Document Download</a>
+                    </li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI FasTag</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Salary Account</a></li>
+                </ul>
+            </div>
+            <!-- Row-3 -->
+            <div class="links">
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">NRI Services</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Fair Lending Practice Code</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Securities</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Express Remit</a></li>
+                </ul>
+            </div>
+            <!-- Row-4 -->
+            <div class="links">
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Mutual Fund</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Life Insurance</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">SBI Card</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i><a href="">Online SBI Global</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--=============================== More Links Jquery ===============================-->
+        <script>
+            $(document).ready(function () {
+                $("#read-more-btn").click(function () {
+                    $("#more-links").slideToggle(300);
+                });
+            });
+        </script>
+        <!--========== More Links Button ==========-->
+        <div class="more-btn">
+            <button id="read-more-btn"><i class="fa-solid fa-caret-down"></i>More Useful Links</button>
+        </div>
+
+        <!--=============================== Image Slider ===============================-->
+        <div class="slide-container">
+            <!-- Slider-image -->
+            <div class="slides">
+                <a href=""><img id="img" src="image/banner1.jpg" class="active"></a>
+                <a href=""><img id="img" src="image/banner2.jpg"></a>
+                <a href=""><img id="img" src="image/banner3.jpg"></a>
+                <a href=""><img id="img" src="image/banner4.jpg"></a>
+                <a href=""><img id="img" src="image/banner5.jpg"></a>
+                <a href=""><img id="img" src="image/banner6.jpg"></a>
+                <a href=""><img id="img" src="image/banner7.jpg"></a>
+                <a href=""><img id="img" src="image/banner8.jpg"></a>
+                <a href=""><img id="img" src="image/banner9.jpg"></a>
+                <a href=""><img id="img" src="image/banner10.jpg"></a>
+                <a href=""><img id="img" src="image/banner11.jpg"></a>
+                <a href=""><img id="img" src="image/banner12.jpg"></a>
+                <a href=""><img id="img" src="image/banner13.jpg"></a>
+            </div>
+            <!-- Next-Prev buttons -->
+            <div class="buttons">
+                <span class="next">&#10095;</span>
+                <span class="prev">&#10094;</span>
+            </div>
+            <!-- Slider-dots -->
+            <div class="dotsContainer">
+                <div class="dot active" attr='0' onclick="switchImage(this)"></div>
+                <div class="dot" attr='1' onclick="switchImage(this)"></div>
+                <div class="dot" attr='2' onclick="switchImage(this)"></div>
+                <div class="dot" attr='3' onclick="switchImage(this)"></div>
+                <div class="dot" attr='4' onclick="switchImage(this)"></div>
+                <div class="dot" attr='5' onclick="switchImage(this)"></div>
+                <div class="dot" attr='6' onclick="switchImage(this)"></div>
+                <div class="dot" attr='7' onclick="switchImage(this)"></div>
+                <div class="dot" attr='8' onclick="switchImage(this)"></div>
+                <div class="dot" attr='9' onclick="switchImage(this)"></div>
+                <div class="dot" attr='10' onclick="switchImage(this)"></div>
+                <div class="dot" attr='11' onclick="switchImage(this)"></div>
+                <div class="dot" attr='12' onclick="switchImage(this)"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© State Bank of India (APM Id:Serv_Tran_564)</p>
+            <p>Site best viewed at 1024 x 768 resolution in Microsoft Edge 79+, Mozilla 96+, Google Chrome 97+</p>
+        </div>
+    </div>
+
+  
+    <!-- Slider-Javascript-file -->
+    <script src="slider.js"></script>
+</body>
+
+</html>

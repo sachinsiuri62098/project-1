@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(image/bg2.jpg);
+    font-family: Roboto;
+}
+
+.pageloade{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    right: 0;
+}
+
+/*=============== Social Media Icons ===============*/
+.social-media a {
+    text-decoration: none;
+    color: #022D58;
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 1px;
+    padding: 5px 52px 6px 5px;
+    position: relative;
+    right: -73%;
+    transition: 0.4s;
+    background-color: #CBEFFB;
+}
+
+.social-media a:hover {
+    right: 0%;
+}
+
+.social-media a img {
+    margin-right: 10px;
+}
+
+/*=============== SMain_Page_Container ===============*/
+.Main_Page_Container {
+    width: 1150px;
+    background-color: white;
+    margin-inline: auto;
+    box-shadow: 0px 0px 8px #afafaf;
+}
+
+.header {
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .sbi-logo1,.sbi-logo2 {
+    width: 130px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=============== Navigation Bar ===============*/
+.navbar-container {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    padding-inline: 20px;
+    background-color: #0C376A;
+    position: relative;
+}
+
+.bars{
+    width: 50px;
+    height: 42px;
+    position: absolute;
+    align-items: center;
+    line-height: 42px;
+    font-size: 22px;
+    right: 10px;
+    top: 0;
+    display: none;
+}
+
+.bars .fa-solid{
+    padding: 3px 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-links {
+    width: 100%;
+    display: flex;
+    background-color: #0C376A;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 11.5px;
+    padding: 14px 7px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    border-right: thin solid #00e083;
+}
+
+.navbar-links a span {
+    font-size: 9px;
+}
+
+.change-language {
+    line-height: 42px;
+}
+
+.change-language a {
+    text-decoration: none;
+    color: #FFF251;
+    font-size: 13px;
+    padding: 6px 9px;
+    background-color: #0F6B5A;
+
+}
+
+/*=============== Banking-Pin-Container ===============*/
+.banking-pin-container {
+    width: 100%;
+    padding: 7px;
+    padding-bottom: 0px;
+    background-color: white;
+}
+
+.pin-container {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #D8D8D8;
+    text-align: center;
+}
+
+.pin-container p {
+    color: #5268EB;
+    font-size: 13px;
+    margin: 6px 0px;
+    cursor: context-menu;
+    font-weight: 500;
+}
+
+.animate {
+    animation-name: example;
+    animation-duration: 1s;
+    color: #5268EB;
+    animation-iteration-count: infinite;
+}
+
+/*=============== Banking Container ===============*/
+.banking-container {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    background-color: white;
+}
+
+/*=============== Personal Banking ===============*/
+.personal-banking {
+    width: 565px;
+    text-align: center;
+    border: 1px solid #D8D8D8;
+    background-color: #F8F8F8;
+}
+
+.personal-banking .icon {
+    width: 100%;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.personal-banking a {
+    text-decoration: none;
+    color: #266FA0;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.personal-banking a span {
+    margin-left: 8px;
+    color: black;
+}
+
+.personal-banking a:hover span {
+    color: #266FA0;
+}
+
+.personal-banking .login {
+    width: 135px;
+    height: 42px;
+    line-height: 42px;
+    margin: 5px auto 40px auto;
+    background-color: white;
+}
+
+.personal-banking .login a {
+    text-decoration: none;
+    padding: 6px 0px 6px 15px;
+    color: white;
+    font-size: 14px;
+    background-color: #003366;
+}
+
+.personal-banking .login .fa-solid {
+    padding: 7px 10px 8px 10px;
+    margin-left: 15px;
+    background-color: #022D58;
+}
+
+.personal-banking .user-function {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.personal-banking .function {
+    width: 125px;
+    height: 30px;
+}
+
+.personal-banking .function a {
+    text-decoration: none;
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-align: left;
+}
+
+.personal-banking .function img {
+    margin-inline: 5px;
+}
+
+.personal-banking .text {
+    width: 100%;
+    height: 50px;
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.personal-banking .text p {
+    padding: 3px 10px;
+}
+
+/*=============== Corporate Banking ===============*/
+.corporate-banking {
+    width: 565px;
+    text-align: center;
+    border: 1px solid #D8D8D8;
+    background-color: #F8F8F8;
+}
+
+.corporate-banking a {
+    text-decoration: none;
+    color: #266FA0;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.corporate-banking a span {
+    margin-left: 8px;
+    color: black;
+}
+
+.corporate-banking a:hover span {
+    color: #266FA0;
+}
+
+.corporate-banking .icon {
+    width: 100%;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.corporate-banking .login {
+    width: 320px;
+    height: 42px;
+    line-height: 42px;
+    margin: 5px auto 0px auto;
+    background-color: white;
+}
+
+.corporate-banking .login select {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    padding: 0px 5px;
+    font-size: 13px;
+    margin-right: 8px;
+    border: 1px solid #D8D8D8;
+}
+
+.corporate-banking .login a {
+    text-decoration: none;
+    padding: 6px 20px;
+    color: white;
+    font-size: 14px;
+    background-color: #003366;
+}
+
+.corporate-banking .user-function {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin: 30px 0px 20px 0px;
+    justify-content: space-around;
+}
+
+.corporate-banking .function {
+    width: 125px;
+    height: 30px;
+}
+
+.corporate-banking .function a {
+    text-decoration: none;
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-align: left;
+}
+
+.corporate-banking .function img {
+    margin-inline: 5px;
+}
+
+.corporate-banking .text {
+    width: 100%;
+    height: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.corporate-banking .text p {
+    padding: 3px 15px;
+}
+
+/*================ Maarquee Text Slider ================*/
+.text-slider {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #FF0000;
+    font-weight: 500;
+    background-color: #CBEFFB;
+}
+
+/*================ Useful Links ================*/
+.useful-links{
+    width: 100%;
+    padding: 10px 0px 0px 35px;
+    background-color: #F8F8F8;
+}
+
+.useful-links .links{
+    width: 100%;
+}
+
+.useful-links .links ul{
+    display: flex;
+}
+
+.useful-links .links ul li{
+    list-style: none;
+    width: 275px;
+    font-size: 12px;
+    margin: 9px 0px;
+}
+
+.useful-links .links ul li .fa-solid{
+    margin-inline: 7px;
+    font-size: 11px;
+    color: #003366;
+}
+
+.useful-links .links ul li a{
+    text-decoration: none;
+    color: #003366;
+}
+
+.Main_Page_Container .more-btn{
+    height: 60px;
+    background-color: #F8F8F8;
+}
+
+.Main_Page_Container .more-btn button{
+    width: 170px;
+    height: 35px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+    border: 1px solid #00A9E0;
+    background-color: transparent;
+    cursor: pointer;
+    color: #266FA0;
+}
+
+.Main_Page_Container button .fa-solid{
+    margin-right: 7px;
+    font-size: 17px;
+    color: #00A9E0;
+}
+
+
+#more-links {
+    display: none;
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #0C376A;
+}
+
+@keyframes example {
+    0% {
+        color: orange;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: #5268EB;
+    }
+}
+
+/*===================== Media Query =====================*/
+@media only screen and (max-width: 991px){
+    .header .sbi-logo2{
+        display: none;
+    }
+    .social-media{
+        display: none;
+    }
+
+    .Main_Page_Container{
+        width: 95%;
+    }
+
+    .bars{
+        display: block;
+    }
+
+    .navbar-container{
+        display: block;
+        height: 100%;
+        padding-top: 42px;
+        padding-inline: 0px;
+    }
+
+    .navbar-links{
+        border-top: 1px solid white;
+        margin-left: 0px;
+        flex-direction: column;
+        display: none;
+    }
+
+    .navbar-links a{
+        display: block;
+        padding-left: 10px;
+        
+    }
+    .navbar-links a:hover{
+        background-color:#266FA0;
+    }
+    .change-language{
+        margin-inline: 10px;
+        display: none;
+    }
+    .change-language a {
+        padding: 6px 95% 6px 6px;
+    }
+    .pin-container {
+        width: 100%;
+        height: auto;
+    }
+    .pin-container p {
+        font-size: 10px;
+    }
+    .banking-container{
+        flex-direction: column;
+        height: 100%;
+    } 
+    .personal-banking{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 5px;
+    }
+    .corporate-banking{
+        width: 100%;
+        height: 300px;
+    }
+
+    .useful-links .links ul{
+        flex-direction: column;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        font-size: 11px;
+        flex-direction: column;
+    }
+    
+}
+
+@media only screen and (max-width: 490px){
+    .personal-banking .function a p{
+        display: none;
+    }
+
+    .corporate-banking .function a p{
+        display: none;
+    }
+
+    .corporate-banking .text p{
+        font-size: 12px;
+    }
+}
